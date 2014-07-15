@@ -1,13 +1,14 @@
 # Panduan Installasi Tema CMS IBI ‘Metrocms’
 
 ## OUTLINE
-- [Overview] (##Overview) 
-- [Instalasi Tema] (##Instalasi Tema)
-- States
-- Tiles
-- SlidePanel
-- CSS style
-- Icon class
+- [Overview] (#overview) 
+- [Instalasi Tema] (#instalasi-tema)
+- [States] (#states)
+- [Tiles] (#tiles)
+- [SlidePanel] (#slidepanel)
+- [CSS style] (#css-style)
+- [Icon class] (#icon-class)
+- [Credits] (#credits)
 
 ## OVERVIEW
 Metrocms Dashboard (selanjutnya disebut dashboard) pada dasarnya adalah satu halaman khusus yang disediakan untuk menampung link-link aplikasi CMS yang sebenarnya. Ketika digabungkan sebagai tema YiiFramework, dashboard ini memerlukan satu route khusus yang telah dibuat pada `MetroController.php` yaitu `http://contoh-aplikasi.com/index.php?r=metro`. Dari satu route tersebut, aplikasi dapat menampilkan halaman dari link-link yang berbentuk Tiles (kotak-kotak). Namun, pergantian halaman tersebut tidak mengakibatkan pergantian route, karena dashboard memiliki fitur `state` sehingga yang berubah adalah `state` dari dashboard. 
