@@ -1,4 +1,4 @@
-# Panduan Installasi Tema CMS IBI ‘Metrocms’
+# Panduan Instalasi Tema CMS IBI ‘Metrocms’
 
 ## OUTLINE
 - [Overview] (#overview) 
