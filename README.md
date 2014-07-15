@@ -3,7 +3,7 @@
 ## OUTLINE
 - [Overview] (#overview) 
 - [Instalasi Tema] (#instalasi-tema)
-- [States] (#states-dashboard)
+- [State Dashboard] (#state-dashboard)
 - [Tiles] (#tiles)
 - [SlidePanel] (#slide-panel)
 - [CSS style] (#css-style)
