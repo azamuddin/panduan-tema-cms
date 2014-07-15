@@ -3,9 +3,9 @@
 ## OUTLINE
 - [Overview] (#overview) 
 - [Instalasi Tema] (#instalasi-tema)
-- [States] (#states)
+- [States] (#states-dashboard)
 - [Tiles] (#tiles)
-- [SlidePanel] (#slidepanel)
+- [SlidePanel] (#slide-panel)
 - [CSS style] (#css-style)
 - [Icon class] (#icon-class)
 - [Credits] (#credits)
@@ -248,7 +248,7 @@ Buka file `themes/metrocms/views/metro/deps/views/overlay.html`. Lalu sesuaikan 
 ## CSS STYLE
 Tema ini memanfaatkan tema bootstrap yaitu bootmetro, style yang disediakan oleh bootmetro dapat dipakai di tema ini. Dokumentasi bootmetro dapat dilihat di sini http://aozora.github.io/bootmetro/docs/docs-css.html
 
-## ICON STYLE
+## ICON CLASS
 Bootmetro telah menyediakan bermacam icon bertema Windows Metro UI, yang dapat dipelajari di sini http://aozora.github.io/bootmetro/docs/docs-icons.html
 
 ## CREDITS
