@@ -34,7 +34,12 @@ Pada file konfigurasi state, terdapat baris yang mendefinisikan bahwa state `sem
 
 ## INSTALASI TEMA
  1. Copy folder `metrocms` dari build.cms.ibi ke ‘WebRoot/projectname/themes’
- 2. Aktifkan Tema dengan menambah definisi ke ‘WebRoot/projectname/protected/config/main.php
+
+ 2. Copy dan paste `MetroController.php` dan `SiteController.php` ke ‘WebRoot/projectname/protected/controllers’, replace exisiting file. 
+
+      File `MetroController.php` dipasang agar route ‘index.php?r=metro’ dapat diakses, route ini merupakan halaman dashboard utama metro.
+ 3. Copy dan paste `contoh.php` dan `login.php`
+ 4. Aktifkan Tema dengan menambah definisi ke ‘WebRoot/projectname/protected/config/main.php
 
         // autoloading model and component classes
 	    'import'=>array(
@@ -42,11 +47,6 @@ Pada file konfigurasi state, terdapat baris yang mendefinisikan bahwa state `sem
 	    	   'application.components.*',
             ),
 	     'theme'=> 'metrocms', // baris ini
-
- 3. Copy dan paste `MetroController.php` dan `SiteController.php` ke ‘WebRoot/projectname/protected/controllers’, replace exisiting file. 
-
-      File `MetroController.php` dipasang agar route ‘index.php?r=metro’ dapat diakses, route ini merupakan halaman dashboard utama metro.
- 4. Copy dan paste `contoh.php` dan `login.php`
 
 **catatan**: *Semua layout berubah ketika tema dipasang (termasuk tampilan global), apabila ingin menggunakan layout Anda pada tema metro ini, buka folder ‘themes/metrocms/views/layouts/‘ kemudian ganti `main.php` dengan `main.php` milik Anda yang ada di ‘protected/views/layouts/main.php`. Disarankan untuk menggunakan tema yang sudah disesuaikan agar tampilan login sesuai desain login metro. Juga agar dapat memanfaatkan CSS styling metro untuk beberapa elemen seperti grid, tombol, form, icon, dll*
 
