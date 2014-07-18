@@ -249,6 +249,8 @@ Buka file `themes/metrocms/views/metro/deps/views/overlay.html`. Lalu sesuaikan 
 Tema ini memanfaatkan tema bootstrap yaitu bootmetro, style yang disediakan oleh bootmetro dapat dipakai di tema ini. Dokumentasi bootmetro dapat dilihat di sini http://aozora.github.io/bootmetro/docs/docs-css.html
 
 ## ICON CLASS
+Icon dapat menggunakan Font Awesome, dokumentasi lengkap class icon bisa dibaca di sini http://fortawesome.github.io/Font-Awesome/icons/
+
 Bootmetro telah menyediakan bermacam icon bertema Windows Metro UI, yang dapat dipelajari di sini http://aozora.github.io/bootmetro/docs/docs-icons.html
 
 ## CREDITS
